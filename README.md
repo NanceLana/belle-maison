@@ -1,4 +1,9 @@
-# React + Vite
+# belle-maison
+Trying to create a pocket room interior designer🐬✨
+
+---
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
