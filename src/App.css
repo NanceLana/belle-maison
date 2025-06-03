@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff1f3; /* soft blush pink */
+  font-family: 'Quicksand', sans-serif;
+  color: #4b2e2e; /* romantic mocha */
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #7c2d2d; /* deep romantic red */
+  font-weight: 700;
+}
+
+input,
+textarea,
+button {
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  background-color: #d36c6c;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b65353;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+textarea::placeholder {
+  color: #a47e7e;
+}
